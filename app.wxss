@@ -1,0 +1,28 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+} 
+
+.page-section-spacing {
+  box-sizing: border-box;
+  padding: 0 8rpx;
+}
+
+.page-section-block {
+  width: 100%;
+  display: block;
+}
+
+.page-section-flex-row {
+  margin: 24rpx 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.page-section {
+  width: 100%;
+  margin-bottom: 8rpx;
+}

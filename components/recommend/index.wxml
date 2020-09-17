@@ -1,0 +1,3 @@
+<scroll-view scroll-x class="scroll">
+  <special class="item" wx:for="{{list}}" wx:key="item" item="{{item}}"></special>
+</scroll-view>

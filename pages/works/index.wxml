@@ -1,0 +1,10 @@
+
+  <view class="tabs">
+    <view class="tabs-item" bindtap="tabsChanged" data-tab="special">西画雕塑</view>
+    <view class="tabs-item active" bindtap="tabsChanged" data-tab="special">拍卖中</view>
+    <view class="tabs-item" bindtap="tabsChanged" data-tab="works">当前价</view>
+     </view>
+
+<view wx:for="{{works.list}}" wx:key="item">
+  <works detail="{{item}}"></works>
+</view>

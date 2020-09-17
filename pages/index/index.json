@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "van-search": "../../vant/search/index",
+    "van-button": "../../vant/button/index",
+    "recommend": "../../components/recommend",
+    "special": "../../components/special",
+    "hot-works": "../../components/hot-works",
+    "img": "../../components/picture"
+  }
+}

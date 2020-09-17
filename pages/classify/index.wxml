@@ -1,0 +1,6 @@
+<!--pages/classify/index.wxml-->
+<view class="page-section-flex-row" wx:for="{{classify}}" wx:key="item">
+  <view class="img">
+  <image src="{{item.cover}}" bindtap="navigateToWorks" data-item="{{item}}"></image>
+</view>
+</view>

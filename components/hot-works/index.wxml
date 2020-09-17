@@ -1,0 +1,12 @@
+<view class='content'>
+  <view class='left'>
+    <view class="item" wx:for="{{leftList}}" wx:key="item">
+      <works detail="{{item}}"></works>
+    </view>
+  </view>
+  <view class='right'>
+    <view class="item" wx:for="{{rightList}}" wx:key="item">
+      <works detail="{{item}}"></works>
+    </view>
+  </view>
+</view>

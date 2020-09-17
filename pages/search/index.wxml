@@ -1,0 +1,29 @@
+<view class="container">
+  <view class='search'>
+    <van-search model:value="{{ value }}" placeholder="请输入搜索关键词" bind:search="onSearch" />
+  </view>
+  <view class="tabs">
+    <view wx:if="{{tab!='special'}}" class="tabs-item" bindtap="tabsChanged" data-tab="special">专场</view>
+    <view wx:if="{{tab=='special'}}" class="tabs-item active" bindtap="tabsChanged" data-tab="special">专场</view>
+    <view wx:if="{{tab!='works'}}" class="tabs-item" bindtap="tabsChanged" data-tab="works">拍品</view>
+    <view wx:if="{{tab=='works'}}" class="tabs-item active" bindtap="tabsChanged" data-tab="works">拍品</view>
+  </view>
+  <view class="special" wx:if="{{tab=='special'}}">
+    <view wx:if="{{value && !specials.list}}">
+      <image style="width:70%" mode="aspectFill" src="../../images/no-data.png" />
+      <view>没有数据</view>
+    </view>
+    <view wx:for="{{specials.list}}" wx:key="item">
+      <special item="{{item}}"></special>
+    </view>
+  </view>
+  <view class="works" wx:if="{{tab=='works'}}">
+    <view wx:if="{{value && !works.list}}">
+      <image style="width:70%" mode="aspectFill" src="../../images/no-data.png" />
+      <view>没有数据</view>
+    </view>
+    <view wx:for="{{works.list}}" wx:key="item">
+      <works detail="{{item}}"></works>
+    </view>
+  </view>
+</view>

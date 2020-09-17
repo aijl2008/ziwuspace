@@ -1,0 +1,4 @@
+<view>
+  <image src="{{item.images[0]}}"></image>
+  <view>{{item.name}}</view>
+</view>

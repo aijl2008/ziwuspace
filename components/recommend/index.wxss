@@ -1,0 +1,11 @@
+.scroll {
+  display: flex;
+  white-space: nowrap;
+}
+
+.scroll .item {
+  height: 198rpx;
+  width: 740rpx;
+  display: inline-block;
+  margin-left: 10rpx;
+}

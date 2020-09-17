@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "专场列表",
+  "usingComponents": {
+    "special": "../../components/special"
+  }
+}

@@ -1,0 +1,19 @@
+.tabs {
+  display: flex;
+  background: #ffffff;
+  border-bottom: .05rem solid #dddee3;
+  height: 80rpx;
+  margin: 12rpx 0;
+}
+
+.tabs-item {
+  flex: 1;
+  display: block;
+  color: #27282d;
+  font-weight: 400;
+}
+
+
+.active {
+  color: #18bd6f;
+}

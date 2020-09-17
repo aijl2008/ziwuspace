@@ -1,0 +1,9 @@
+<view class="tabs">
+  <view class="tabs-item">正在进行</view>
+  <view class="tabs-item active">预展中</view>
+  <view class="tabs-item">历史专场</view>
+</view>
+
+<view wx:for="{{specials.list}}" wx:key="item">
+  <special item="{{item}}"></special>
+</view>

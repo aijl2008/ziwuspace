@@ -1,0 +1,5 @@
+<!--pages/specials/show.wxml-->
+<view>
+<special item="{{special}}"></special>
+</view>
+<hot-works list="{{works.list}}"></hot-works>

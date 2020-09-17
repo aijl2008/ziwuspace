@@ -1,0 +1,55 @@
+.carousel {
+  margin: 0 12rpx;
+}
+
+.carousel .swiper {
+  height: 204rpx;
+}
+
+.recommend {
+  margin: 24rpx;
+}
+
+.recommend .title {
+  font-size: 40rpx;
+  width: 50%;
+}
+
+.recommend .more {
+  width: 50%;
+  color: gray;
+  font-size: 28rpx;
+}
+
+.recommend .arrow {
+  width: 35rpx;
+  height: 35rpx;
+  padding-right: 20rpx;
+}
+
+.recommend .swiper {
+  height: 490rpx;
+}
+
+.recommend .swiper-item {
+  padding: 20px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 120rpx;
+  margin: 0 12rpx;
+  box-shadow: 0rem 0rem 0.5rem 0rem rgba(0, 0, 0, 0.1);
+  border-radius: .2rem;
+  font-weight: bold;
+}
+
+.button .ico {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 20rpx;
+}

@@ -1,0 +1,45 @@
+<view class="container">
+  <view class="page-section-flex-row" bindtap="navigateToSearch">
+    <icon type="search" size="18" color=""></icon>
+    <input style="border: 1px solid" type="text" confirm-type="search" bindconfirm="onConfirm" value="{{value}}" />
+    <icon type="clear" size="18" bind:tap="onToggle" />
+  </view>
+  <view class="page-section carousel">
+    <swiper class='swiper' indicator-dots="true" indicator-color="#f4f4f4" indicator-active-color="#4eb8b8"
+      autoplay="true" interval='2000' circular='true'>
+      <block wx:for="{{carousel}}" wx:key="item">
+        <swiper-item bindtap='tagCarousel' data-url='{{item.url}}'>
+          <image class="swiper-item" mode="widthFix" src='{{item.src}}'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class=".page-section-flex-row">
+    <view class="button" bindtap="navigateToSpecials">
+      <image class="ico" src="../../images/btn_left.png"></image>
+      <text>拍卖专场</text>
+    </view>
+    <view class="button" bindtap="navigateToClassify">
+      <image class="ico" src="../../images/btn_right.png"></image>
+      <text>艺术品类</text>
+    </view>
+  </view>
+
+  <view class="page-section-flex-row recommend">
+    <text class="title">推荐专场</text>
+    <text class="more">更多</text>
+  </view>
+
+  <view class="page-section-block recommend">
+    <swiper class='swiper' indicator-dots="" indicator-color="#f4f4f4" indicator-active-color="#4eb8b8"
+      display-multiple-items='1.1' next-margin="30px">
+      <block wx:for="{{recommend}}" wx:key="item">
+        <swiper-item bindtap='carousel' data-url='{{item.url}}'>
+          <special class="swiper-item" item='{{item}}'></special>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <hot-works list="{{hotWorks}}"></hot-works>
+</view>

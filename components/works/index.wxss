@@ -1,0 +1,50 @@
+.title {
+  font-size: .8rem;
+  color: #27282D;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.works_content {
+  height: 100%;
+  overflow: scroll;
+}
+
+.price_box {
+  font-size: .7rem;
+  color: #969696;
+  margin-right: .4rem
+}
+
+.price {
+  color: #FF5F00;
+  font-weight: bold;
+}
+
+.banner_box {
+  position: relative;
+}
+
+.show {
+  font-size: .6rem;
+  color: #666;
+  padding-bottom: 1rem;
+  line-height: .9rem
+}
+
+.status {
+  display: inline-block;
+  height: 1rem;
+  line-height: 1rem;
+  padding: 0 .3rem;
+  color: #fff;
+  border-radius: .1rem;
+  position: absolute;
+  left: .25rem;
+  bottom: .25rem;
+  font-size: .65rem;
+}
+
+.auctioning {
+  background: linear-gradient(180deg, rgba(255, 152, 0, 1) 0%, rgba(255, 95, 0, 1) 100%);
+}
