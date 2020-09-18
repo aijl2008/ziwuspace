@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="page-section-space">
+    <view class="tab">
+      <view class="tab-item active">已拍下</view>
+      <view class="tab-item">参拍中</view>
+      <view class="tab-item">未拍中</view>
+    </view>
+  </view>
+
+</view>
+

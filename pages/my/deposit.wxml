@@ -1,0 +1,42 @@
+<view class="container">
+  <view class="page-section-spacing">
+    <view class="balance">可用余额</view>
+    <view class="money">￥100,000</view>
+    <view class="help" bindtap="openWebView" data-url="http://auction-api-inhouse.ziwuspace.com/deposit/index.html">保证金说明</view>
+  </view>
+  <view class="page-section-spacing">
+    <view class="btn red">交纳保证金</view>
+    <view class="btn black">退回保证金</view>
+    <view class="note">
+      保证金可用余额仅可用作交纳保证金，不可用来支付货款。
+    </view>
+  </view>
+  <view class="page-section-spacing">
+  <view class="title">保证金明细</view>
+</view>
+<view class="page-section-spacing">
+    <view class="table">
+      <view class="tr bg-w">
+        <view class="th">金额(¥)</view>
+        <view class="th">原因</view>
+        <view class="th">时间</view>
+        <view class="th">状态</view>
+      </view>
+      <block wx:for="{{deposit}}" wx:key="item" >
+        <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+          <view class="td">{{item.code}}</view>
+          <view class="td">{{item.text}}</view>
+          <view class="td">{{item.type}}</view>
+          <view class="td">{{item.type}}</view>
+        </view>
+        <view class="tr" wx:else>
+          <view class="td">{{item.code}}</view>
+          <view class="td">{{item.text}}</view>
+          <view class="td">{{item.type}}</view>
+          <view class="td">{{item.type}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="bank-container">
+    <view class="name">支付宝收款账户</view>
+    <view class="ok-box">
+      <view class="ok"></view>
+    </view>
+    <view class="no"> awz@awz.cn</view>
+  </view>
+  <view class="bank-container">
+    <view class="name">银行卡收款账户<text class="default">默认</text></view>
+    <view class="no">   中国农业银行 </view>
+  </view>
+  
+  <view class="note">
+    此处信息将用于您保证金退回的收款账户，请准确填写。如需修改请联系我们的客服 <text user-select="true">13800138000</text>
+  </view>
+</view>

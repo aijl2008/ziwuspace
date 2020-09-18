@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="page-section-space">
+    <view class="bank">
+      <view class="name">
+        <text>银行卡收款账户</text>
+        <text class="default">默认</text>
+      </view>
+      <view class="no">6228480010816649213</view>
+    </view>
+    <view class="select">
+      选择账户
+    </view>
+
+    <view class="note">您当前的可退金额为<text class="money">￥9000</text></view>
+  </view>
+
+  <view class="page-section-space">
+    <view class="submit">
+      <view class="btn">立即交纳</view>
+    </view>
+  </view>
+</view>

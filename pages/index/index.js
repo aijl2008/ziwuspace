@@ -1,5 +1,6 @@
 const app = getApp()
 import config from '../../config';
+import Page from '../page';
 
 Page({
   data: {
@@ -7,12 +8,6 @@ Page({
     recommend: [],
     carousel: [],
     hotWorks: []
-  },
-
-  onChange(e) {
-    // this.setData({
-    //   value: e.detail
-    // });
   },
 
   onSearch() {
@@ -51,31 +46,5 @@ Page({
 
   },
 
-  navigateToSpecials: function (event) {
-    let item = event.currentTarget.dataset.item;
-    wx.switchTab({
-      url: '/pages/specials/index',
-      success: function (res) {
-        console.log('成功')
-      },
-      fail: function (res) {
-        console.log('失败')
-      }
-    })
-
-  },
-
-  navigateToSearch: function (event) {
-    wx.navigateTo({
-      url: '/pages/search/index',
-    })
-  },
-
-  navigateToClassify: function (event) {
-    let item = event.currentTarget.dataset.item;
-    wx.navigateTo({
-      url: '/pages/classify/index',
-    })
-  }
 
 })

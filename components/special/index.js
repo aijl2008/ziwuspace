@@ -10,9 +10,6 @@ Component({
     }
   },
 
-  /**
-   * 组件的初始数据
-   */
   data: {
 
   },
@@ -23,7 +20,6 @@ Component({
   methods: {
     show: function (event) {
       let item = event.currentTarget.dataset.item;
-      console.log(item);
       wx.navigateTo({
         url: "/pages/specials/show?id="+item.id
       })

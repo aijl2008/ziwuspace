@@ -1,13 +1,19 @@
 {
   "pages": [
+    "pages/my/index",
     "pages/index/index",
     "pages/specials/index",
     "pages/search/index",
-    "pages/my/index",
     "pages/specials/show",
     "pages/works/index",
     "pages/classify/index",
-    "pages/works/show"
+    "pages/works/show",
+    "pages/my/bid",
+    "pages/my/deposit",
+    "pages/my/pay-deposit",
+    "pages/my/return-deposit",
+    "pages/my/select-bank",
+    "pages/my/order"
   ],
   "window": {
     "backgroundTextStyle": "light",

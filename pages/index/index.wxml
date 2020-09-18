@@ -4,6 +4,17 @@
     <input style="border: 1px solid" type="text" confirm-type="search" bindconfirm="onConfirm" value="{{value}}" />
     <icon type="clear" size="18" bind:tap="onToggle" />
   </view>
+
+  <view class="page-section carousel">
+    测试图片是否显示开始
+      <view wx:for="{{carousel}}" wx:key="item">
+        {{item.src}}
+        <image class="swiper-item" mode="widthFix" src='{{item.src}}'></image>
+      </view>
+      测试图片是否显示结束
+  </view>
+
+
   <view class="page-section carousel">
     <swiper class='swiper' indicator-dots="true" indicator-color="#f4f4f4" indicator-active-color="#4eb8b8"
       autoplay="true" interval='2000' circular='true'>

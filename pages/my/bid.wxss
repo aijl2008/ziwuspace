@@ -1,0 +1,19 @@
+.active {
+  color: #18BD6F;
+    font-weight: bold;
+}
+
+.tab {
+  box-shadow: 0rem -0.02rem 0rem 0rem rgba(221,222,227,1);
+    display: table;
+    width: 100%;
+}
+
+.tab-item {
+  display: table-cell;
+    text-align: center;
+    padding-top: .65rem;
+    padding-bottom: .7rem;
+    position: relative;
+    font-size: .75rem;
+}
