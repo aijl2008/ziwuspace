@@ -29,12 +29,12 @@
     </view>
   </view>
 
-  <view class="recommend flex">
+  <view class="recommend">
     <text class="title">推荐专场</text>
     <text class="more">更多</text>
   </view>
 
-  <view class="recommend section">
+  <view class="section">
     <swiper class='swiper' indicator-dots="" indicator-color="#f4f4f4" indicator-active-color="#4eb8b8"
       display-multiple-items='1.1' next-margin="30px">
       <block wx:for="{{recommend}}" wx:key="item">

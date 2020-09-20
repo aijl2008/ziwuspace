@@ -4,9 +4,11 @@ import Page from '../page';
 
 Page({
   data: {
-
+    config:{},
   },
   onLoad: function (options) {
-
+    this.setData({
+      config
+    });
   },
-})
+});

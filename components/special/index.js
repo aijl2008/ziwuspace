@@ -19,13 +19,8 @@ Component({
       wx.navigateTo({
         url: '/pages/specials/show?id=' + item,
         success: function (res) {
-          console.log(res);
-          wx.showToast({
-            title: res.errMsg,
-          })
         },
         fail: function (res) {
-          console.log(res);
           wx.showToast({
             title: res.errMsg,
             image: "/images/fail.png"
@@ -39,7 +34,6 @@ Component({
       wx.switchTab({
         url: config.api.specials.show + item,
         success: function (res) {
-          console.log(res);
         },
         fail: function (res) {
           wx.showToast({

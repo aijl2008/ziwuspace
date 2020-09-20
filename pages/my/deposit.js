@@ -4,6 +4,7 @@ import Page from '../page';
 
 Page({
   data: {
+    config:{},
     deposit: [
       { "code": "01", "text": "text1", "type": "type1" },
       { "code": "02", "text": "text2", "type": "type2" },
@@ -16,6 +17,8 @@ Page({
   },
 
   onLoad: function (options) {
-
+    this.setData({
+      config
+    });
   },
-})
+});

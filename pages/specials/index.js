@@ -29,9 +29,7 @@ Page({
   },
 
   nextPage: function () {
-    console.log(this.data.page, this.data.specials.morePage);
     if (this.data.specials.morePage) {
-      console.log('aaaaaa');
       this.setData({
         page: this.data.page + 1
       });
@@ -41,7 +39,6 @@ Page({
       this.setData({
         showTheEnd: true
       });
-      console.log('bbbbbbb');
     }
   },
 

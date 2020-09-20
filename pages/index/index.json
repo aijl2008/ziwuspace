@@ -1,9 +1,7 @@
 {
   "navigationBarTitleText": "首页",
   "usingComponents": {
-    "recommend": "../../components/recommend",
     "special": "../../components/special",
-    "works-waterfall": "../../components/works-waterfall",
-    "img": "../../components/picture"
+    "works-waterfall": "../../components/works-waterfall"
   }
 }

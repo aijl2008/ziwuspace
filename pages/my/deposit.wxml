@@ -2,7 +2,7 @@
   <view class="page-section-spacing">
     <view class="balance">可用余额</view>
     <view class="money">￥100,000</view>
-    <view class="help" bindtap="openWebView" data-url="http://auction-api-inhouse.ziwuspace.com/deposit/index.html">保证金说明</view>
+    <view class="help" bindtap="openWebView" data-url="{{config.wap.bid.deposit}}">保证金说明</view>
   </view>
   <view class="page-section-spacing">
     <view class="btn red">交纳保证金</view>

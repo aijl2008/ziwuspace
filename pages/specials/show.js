@@ -42,8 +42,18 @@ Page({
     this.init();
   },
 
-  onLoad: function (options) {
-    this.init();
+  nextPage: function () {
+    if (this.data.works.morePage) {
+      this.setData({
+        page: this.data.page + 1
+      });
+      this.init();
+    }
+    else{
+      this.setData({
+        showTheEnd: true
+      });
+    }
   },
 
   init: function () {

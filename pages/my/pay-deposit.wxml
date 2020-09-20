@@ -4,10 +4,10 @@
     <input style="border: 1px solid" type="text" confirm-type="search" bindconfirm="onConfirm" value="{{value}}" />
     <view class="agreement">
       我同意
-      <text bindtap="openWebView" data-url="https://auction-api-inhouse.ziwuspace.com/deposit/service"
+      <text bindtap="openWebView" data-url="{{config.wap.bid.protocol}}"
         class="red">《竞拍协议》</text>
       并已理解
-      <text bindtap="openWebView" data-url="https://auction-api-inhouse.ziwuspace.com/help/showexplain"
+      <text bindtap="openWebView" data-url="{{config.wap.bid.notice}}"
         class="red">《竞拍须知》</text>
     </view>
   </view>

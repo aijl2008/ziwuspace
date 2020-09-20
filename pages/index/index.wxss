@@ -8,6 +8,8 @@
 
 .recommend {
   margin: 24rpx;
+  display: flex;
+  justify-content: space-between;
 }
 
 .recommend .title {
@@ -28,7 +30,7 @@
 }
 
 .recommend .swiper {
-  height: 490rpx;
+  height: 550rpx;
 }
 
 .recommend .swiper-item {

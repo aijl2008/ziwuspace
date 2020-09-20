@@ -11,11 +11,11 @@
   </view>
 
   <view wx:if="{{dropdown==1}}" class="dropdown-content">
-    <view class="dropdown-item" wx:for="{{works.classify}}" wx:key="item"  bindtap="changeClassify" data-item="{{item}}">
+    <view class="dropdown-item" wx:for="{{works.classify}}" wx:key="item" bindtap="changeClassify" data-item="{{item}}">
       {{item.name}}
     </view>
   </view>
-  <view wx:if="{{dropdown==2}}"  class="dropdown-content">
+  <view wx:if="{{dropdown==2}}" class="dropdown-content">
     <view class="dropdown-item" wx:for="{{status}}" wx:key="item" bindtap="changeStatus" data-item="{{item}}">
       {{item.name}}
     </view>
