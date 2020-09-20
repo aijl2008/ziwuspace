@@ -1,4 +1,95 @@
-<view>
-  <image src="{{item.images[0]}}"></image>
-  <view>{{item.name}}</view>
+<view class="container">
+
+  <view class="carousel section">
+    <swiper class='swiper' indicator-dots="true" indicator-color="#f4f4f4" indicator-active-color="#4eb8b8"
+      autoplay="true" interval='2000' circular='true'>
+      <block wx:for="{{item.images}}" wx:key="index" wx:for-item="url">
+        <swiper-item>
+          <image class="swiper-item" mode="widthFix" src='{{url}}'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="">拍卖中 <text class="time">23:00</text><text class="time">23:00</text>截拍</view>
+    <view class="name">{{item.name}}</view>
+  </view>
+
+  <view class="current-price section">
+    <view class="price">当前价 <text class="money">{{item.bid.current}}</text></view>
+    <view class="click">{{item.bid.count}}次围观</view>
+  </view>
+
+  <view class="line"></view>
+
+  <view class="bid section">
+    <view class="title">出价记录</view>
+    <view class="click">{{item.bid.count}}次</view>
+  </view>
+
+  <view class="rank section">
+    <view class="rows {{index == 0 ?'rank-active':''}}" wx:key="i" wx:for="{{item.bid.rank}}" wx:for-item="row">
+      <view class="item nickname">{{row.nickname}}</view>
+      <view class="item time">{{row.time}}</view>
+      <view class="item status">{{row.status}}</view>
+      <view class="item price">{{row.price}}</view>
+    </view>
+  </view>
+
+  <view class="info section">
+    <view class="rows" wx:for="{{item.info}}" wx:for-item="tr" wx:key="i">
+      <view class="item" wx:for="{{tr}}" wx:for-item="td" wx:key="j">
+        <text>{{td.name}}</text>
+        <text>{{td.value}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="line"></view>
+
+  <view class="organ section">
+    <view class="organ-logo">
+      <image src="{{item.organ.logo}}"></image>
+    </view>
+    <view class="organ-name">{{item.organ.name}}</view>
+    <view class="organ-store">查看店铺</view>
+  </view>
+
+  <view class="line"></view>
+
+  <view class="buttun section rows">
+    <view class="tab">
+      <view bindtap="tabsChanged" data-tab="1" class="tab-item">拍品详情</view>
+      <view bindtap="tabsChanged" data-tab="2" class="tab-item">竞拍须知</view>
+    </view>
+  </view>
+
+  <view class="detail section">
+    <block wx:if="{{ tab == 1}}">
+      <view class="prop {{index%2 !=0 ?'prop-active':''}}" wx:for="{{item.prop}}" wx:for-item="row" wx:key="i">
+        <text>{{row.name}}</text>
+        <text>{{row.value}}</text>
+      </view>
+      <rich-text>
+        {{item.detail}}
+      </rich-text>
+    </block>
+    <rich-text wx:if="{{ tab == 2}}">......</rich-text>
+  </view>
+
+  <view class="section" style="margin: 0 0 3rem 0">
+  </view>
+
+  <view class="nav-footer section rows">
+    <view class="icon" bindtap="makePhoneCall" data-phone="{{item.organ.phone}}">
+      <image mode="aspectFit" src="../../images/phone.png"></image>
+      <text>联系商户</text>
+    </view>
+    <view class="btn-pay" bindtap="navigateToPayDeposit">
+      缴纳保证金 {{item.deposit}}
+    </view>
+  </view>
+
+  <view class="the-end">
+    艺术的底线
+  </view>
+
 </view>

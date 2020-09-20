@@ -1,9 +1,27 @@
-<view class="tabs">
-  <view class="tabs-item">正在进行</view>
-  <view class="tabs-item active">预展中</view>
-  <view class="tabs-item">历史专场</view>
-</view>
+<view class="container">
 
-<view wx:for="{{specials.list}}" wx:key="item">
-  <special item="{{item}}"></special>
+  <view class="loading" wx:if="{{ initing}}">
+    加载中
+  </view>
+
+  <view class="section">
+    <view class="tabs flex">
+      <view class="tab-item {{ tab==1?'active':''}}" bindtap="onTabChanged" data-tab="1">正在进行</view>
+      <view class="tab-item {{ tab==2?'active':''}}"  bindtap="onTabChanged" data-tab="2">预展中</view>
+      <view class="tab-item {{ tab==3?'active':''}}" bindtap="onTabChanged" data-tab="3">历史专场</view>
+    </view>
+  </view>
+  
+  <view class="section" wx:for="{{specials.list}}" wx:key="item">
+    <special item="{{item}}"></special>
+  </view>
+
+  <view class="the-end" wx:if="{{ showTheEnd }}">
+    艺术的底线
+  </view>
+
+  <view class="loading" wx:if="{{ showLoading}}">
+    加载中
+  </view>
+
 </view>

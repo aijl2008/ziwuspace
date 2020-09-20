@@ -2,17 +2,16 @@
   display: flex;
   background: #ffffff;
   border-bottom: .05rem solid #dddee3;
-  height: 40rpx;
+  height: 65rpx;
   margin: 12rpx 0;
 }
 
-.tabs-item {
+.tab-item {
   flex: 1;
   display: block;
   color: #27282d;
   font-weight: 400;
 }
-
 
 .active {
   color: #18bd6f;

@@ -1,3 +1,10 @@
-.img {
-  width: 49%;
+.classify {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.classify-item {
+  width: 375rpx;
+  margin: 0 0 20rpx 0;
 }

@@ -1,10 +1,36 @@
+<view class="container">
 
   <view class="tabs">
-    <view class="tabs-item" bindtap="tabsChanged" data-tab="special">西画雕塑</view>
-    <view class="tabs-item active" bindtap="tabsChanged" data-tab="special">拍卖中</view>
-    <view class="tabs-item" bindtap="tabsChanged" data-tab="works">当前价</view>
-     </view>
+    <view class="tabs-item {{tab==1?'active':''}}" bindtap="onTabChanged" data-tab="1">{{tabs[0]}}</view>
+    <view class="tabs-item {{tab==2?'active':''}}" bindtap="onTabChanged" data-tab="2">{{tabs[1]}}</view>
+    <view class="tabs-item {{tab==3?'active':''}}" bindtap="onTabChanged" data-tab="3">{{tabs[2]}}</view>
+  </view>
 
-<view wx:for="{{works.list}}" wx:key="item">
-  <works detail="{{item}}"></works>
+  <view class="loading" wx:if="{{ showLoading}}">
+    加载中
+  </view>
+
+  <view wx:if="{{dropdown==1}}" class="dropdown-content">
+    <view class="dropdown-item" wx:for="{{works.classify}}" wx:key="item"  bindtap="changeClassify" data-item="{{item}}">
+      {{item.name}}
+    </view>
+  </view>
+  <view wx:if="{{dropdown==2}}"  class="dropdown-content">
+    <view class="dropdown-item" wx:for="{{status}}" wx:key="item" bindtap="changeStatus" data-item="{{item}}">
+      {{item.name}}
+    </view>
+  </view>
+
+  <view class="section">
+    <works-waterfall list="{{works.list}}"></works-waterfall>
+  </view>
+
+  <view class="the-end" wx:if="{{ showTheEnd }}">
+    艺术的底线
+  </view>
+
+  <view class="loading" wx:if="{{ showLoading}}">
+    加载中
+  </view>
+
 </view>

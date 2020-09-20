@@ -1,20 +1,25 @@
 Component({
   properties: {
-    detail:{
+    item: {
       type: Object
     }
   },
-  data: {
-  },
+
   methods: {
-    _init: function(){
-      console.log("init");
-    },
-    show: function(event){
+    navigateToWorks: function (event) {
       let item = event.currentTarget.dataset.item;
       wx.navigateTo({
-        url: '/pages/works/index?id='+item.auction_id,
+        url: '/pages/works/show?code=' + item.id,
+        success: function (res) {
+          console.log(res);
+        },
+        fail: function (res) {
+          wx.showToast({
+            title: res.errMsg,
+            image: "/images/fail.png"
+          })
+        }
       })
-    }
+    },
   }
 })

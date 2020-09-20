@@ -1,21 +1,13 @@
 <view class="container">
-  <view class="page-section-flex-row" bindtap="navigateToSearch">
-    <icon type="search" size="18" color=""></icon>
-    <input style="border: 1px solid" type="text" confirm-type="search" bindconfirm="onConfirm" value="{{value}}" />
-    <icon type="clear" size="18" bind:tap="onToggle" />
+
+  <view class="search section">
+    <view class="flex">
+      <icon class="searchcion" type='search'></icon>
+      <input type='text' disabled placeholder="搜索专场、拍品" value="" bindtap='navigateToSearch' />
+    </view>
   </view>
 
-  <view class="page-section carousel">
-    测试图片是否显示开始
-      <view wx:for="{{carousel}}" wx:key="item">
-        {{item.src}}
-        <image class="swiper-item" mode="widthFix" src='{{item.src}}'></image>
-      </view>
-      测试图片是否显示结束
-  </view>
-
-
-  <view class="page-section carousel">
+  <view class="carousel section">
     <swiper class='swiper' indicator-dots="true" indicator-color="#f4f4f4" indicator-active-color="#4eb8b8"
       autoplay="true" interval='2000' circular='true'>
       <block wx:for="{{carousel}}" wx:key="item">
@@ -25,7 +17,8 @@
       </block>
     </swiper>
   </view>
-  <view class=".page-section-flex-row">
+
+  <view class="button-box section flex">
     <view class="button" bindtap="navigateToSpecials">
       <image class="ico" src="../../images/btn_left.png"></image>
       <text>拍卖专场</text>
@@ -36,12 +29,12 @@
     </view>
   </view>
 
-  <view class="page-section-flex-row recommend">
+  <view class="recommend flex">
     <text class="title">推荐专场</text>
     <text class="more">更多</text>
   </view>
 
-  <view class="page-section-block recommend">
+  <view class="recommend section">
     <swiper class='swiper' indicator-dots="" indicator-color="#f4f4f4" indicator-active-color="#4eb8b8"
       display-multiple-items='1.1' next-margin="30px">
       <block wx:for="{{recommend}}" wx:key="item">
@@ -52,5 +45,15 @@
     </swiper>
   </view>
 
-  <hot-works list="{{hotWorks}}"></hot-works>
+  <view class="hot-works section">
+    <works-waterfall list="{{hotWorks.list}}"></works-waterfall>
+  </view>
+
+  <view wx:if="{{ !hotWorks.morePage}}">
+    <text>艺术的底线</text>
+  </view>
+
+  <view wx:if="{{ showNextPageLoading}}">
+    <text>加载中</text>
+  </view>
 </view>

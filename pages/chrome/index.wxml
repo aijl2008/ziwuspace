@@ -1,2 +1,1 @@
-<view class="center">......</view>
 <web-view src="{{url}}"></web-view>

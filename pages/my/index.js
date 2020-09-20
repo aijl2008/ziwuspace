@@ -38,7 +38,6 @@ Page({
   makePhoneCall: function () {
     wx.makePhoneCall({
       phoneNumber: this.data.phone,
-      
     })
   }
 })

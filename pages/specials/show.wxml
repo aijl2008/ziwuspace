@@ -1,5 +1,18 @@
-<!--pages/specials/show.wxml-->
-<view>
-<special item="{{special}}"></special>
+<view class="container">
+
+  <view class="loading" wx:if="{{ initing}}">
+    加载中
+  </view>
+
+  <special item="{{special}}"></special>
+
+  <works-waterfall list="{{works.list}}"></works-waterfall>
+
+  <view class="the-end" wx:if="{{ showTheEnd }}">
+    艺术的底线
+  </view>
+
+  <view class="loading" wx:if="{{ showLoading}}">
+    加载中
+  </view>
 </view>
-<hot-works list="{{works.list}}"></hot-works>

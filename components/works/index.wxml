@@ -1,20 +1,25 @@
-<view wx:if="{{!detail}}">
+<view wx:if="{{!item}}">
   <text>无效作品</text>
 </view>
-<view wx:else class="works_contents" bindtap="show" data-item="{{detail}}">
-    <view class="banner_box">
-      <image mode="aspectFit" src="{{detail.cover_picture}}"></image>
-      <text class="status auctioning">拍卖状态：{{detail.auction_status}}</text>
-    </view>
+
+<view wx:else bindtap="navigateToWorks" data-item="{{item}}">
+
+  <view class="image_box">
+    <image mode="widthFix" src="{{item.cover_picture}}"></image>
+    <text class="status auctioning">拍卖状态：{{item.auction_status}}</text>
+  </view>
+
+  <view class="title">
+    <text>{{item.auction_name}}</text>
+  </view>
+
+  <view class="price_box">
     <view>
-      <view class="title">
-        <text>{{detail.auction_name}}</text>
-      </view>
-      <view class="price_box">
-        <text>当前价</text><text class="price">¥{{detail.now_price}}</text>
-      </view>
-      <view class="show">
-        <text>{{detail.bid_nu}}</text>
-      </view>
+      <text>当前价</text><text class="price">¥{{item.now_price}}</text>
     </view>
+    <view class="number">
+      <text>{{item.bid_nu}}</text>
+    </view>
+  </view>
+
 </view>

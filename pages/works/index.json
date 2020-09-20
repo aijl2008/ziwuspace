@@ -1,6 +1,6 @@
 {
   "navigationBarTitleText": "作品列表",
   "usingComponents": {
-    "works":"../../components/works"
+    "works-waterfall":"../../components/works-waterfall"
   }
 }

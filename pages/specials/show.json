@@ -3,6 +3,6 @@
   "usingComponents": {
     "special": "../../components/special",
     "works": "../../components/works",
-    "hot-works": "../../components/hot-works"
+    "works-waterfall": "../../components/works-waterfall"
   }
 }

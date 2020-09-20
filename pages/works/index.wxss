@@ -17,3 +17,44 @@
 .active {
   color: #18bd6f;
 }
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+} */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  top: 80rpx;
+  animation: slide 500ms;
+
+  margin-top: 2rpx;
+  position: absolute;
+  top: 80rpx;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 90;
+  font-size: 14px;
+  border-bottom: 1rpx solid #ddd;
+}
+
+.dropdown-item {
+
+height: 80rpx;
+    line-height: 80rpx;
+    padding: 0 40rpx;
+    border-bottom: 1rpx solid #ddd;
+
+}
