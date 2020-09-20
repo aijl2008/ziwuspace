@@ -1,24 +1,20 @@
-<view class="special-container" bindtap="show" data-item="{{item}}">
+<view class="image-box" bindtap="navigateToSpecial" data-item="{{item}}">
   <image mode="widthFix" src="{{item.cover}}"></image>
-  <view class="left_right status_box">
-    <view class="status">
-      <text class="status auctioning">拍卖中</text>
-    </view>
-    <view class="timer">
-      <text class="txt">距截拍<text class="time">05</text>时<text class="time">90</text>分<text
-          class="time">22</text>秒</text>
-    </view>
+  <view class="status">
+    <text class="status-name auctioning">拍卖中</text>
+    <text class="txt">距截拍<text class="time">05</text>时<text class="time">90</text>分<text class="time">22</text>秒</text>
   </view>
 </view>
+
 <view class="name">
   <text>{{item.name}}</text>
 </view>
-<view class="left_right font_small gray">
-  <view class="organ" bindtap="organ" data-organ="{{item.organ}}">
-    <image class="ico" mode="widthFix" src="{{item.organ.logo}}"></image>
-    <text class="name">{{item.organ.name}}</text>
-  </view>
-  <view class="pricing">
-    <text class="time">16</text>件拍品，<text class="time">115</text>次出价
-  </view>
+
+<view class="organ" data-organ="{{item.organ}}">
+  <image class="ico" mode="widthFix" src="{{item.organ.logo}}"></image>
+  <text class="name">{{item.organ.name}}</text>
+</view>
+
+<view class="pricing">
+  <text class="time">16</text>件拍品，<text class="time">115</text>次出价
 </view>

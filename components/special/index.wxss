@@ -1,17 +1,19 @@
-.special-container {
+.image-box {
+  width: 100%;
   position: relative;
 }
 
 .name {
-  font-size: 32rpx;
+  line-height: 1.75rem;
+  font-size: .75rem;
   font-weight: 400;
 }
 
-.special-container .gray {
+.gray {
   color: gray;
 }
 
-.special-container .status_box {
+.status {
   width: 100%;
   background-color: rgba(0, 0, 0, .5);
   border-radius: .2rem 0 0 0;
@@ -20,20 +22,16 @@
   color: white;
 }
 
-.special-container .status {
-  padding: 8rpx 0;
+.status-name {
+  padding: 8rpx;
   font-size: small;
 }
 
-.special-container .timer {
-  font-size: smaller;
-}
-
-.special-container .time {
+.time {
   color: rgba(255, 152, 0, 1);
 }
 
-.special-container .status_box .auctioning {
+.auctioning {
   background: linear-gradient(180deg, rgba(255, 152, 0, 1) 0%, rgba(255, 95, 0, 1) 100%);
 }
 

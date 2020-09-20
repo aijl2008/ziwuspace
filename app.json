@@ -1,13 +1,14 @@
 {
   "pages": [
-    "pages/my/index",
-    "pages/index/index",
-    "pages/specials/index",
-    "pages/search/index",
-    "pages/specials/show",
     "pages/works/index",
-    "pages/classify/index",
+    "pages/index/index",
+    "pages/search/index",
+    "pages/demo/index",
+    "pages/specials/index",
     "pages/works/show",
+    "pages/my/index",
+    "pages/specials/show",
+    "pages/classify/index",
     "pages/my/bid",
     "pages/my/deposit",
     "pages/my/pay-deposit",
@@ -17,9 +18,10 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "现代传播工具",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",

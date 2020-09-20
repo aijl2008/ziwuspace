@@ -1,7 +1,555 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c7a20a7-18eb-4f11-aca3-7d03df1c1313" name="Default Changelist" comment="" />
+    <list default="true" id="7c7a20a7-18eb-4f11-aca3-7d03df1c1313" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hot-works/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hot-works/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hot-works/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hot-works/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/special/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/special/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/special/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/special/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/special/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/special/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/actionsheet/actionsheet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/actionsheet/actionsheet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/actionsheet/actionsheet.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/actionsheet/actionsheet.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/badge/badge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/badge/badge.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/badge/badge.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/badge/badge.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/cell/cell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/cell/cell.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/cell/cell.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/cell/cell.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/cells/cells.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/cells/cells.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/cells/cells.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/checkbox-group/checkbox-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/checkbox-group/checkbox-group.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/checkbox-group/checkbox-group.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/checkbox-group/checkbox-group.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/checkbox/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/checkbox/checkbox.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/checkbox/checkbox.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/checkbox/checkbox.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/dialog/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/dialog/dialog.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/dialog/dialog.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/dialog/dialog.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/form/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/form/form.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/form/form.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/gallery/gallery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/gallery/gallery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/gallery/gallery.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/gallery/gallery.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/half-screen-dialog/half-screen-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/half-screen-dialog/half-screen-dialog.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/half-screen-dialog/half-screen-dialog.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/half-screen-dialog/half-screen-dialog.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/icon/icon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/icon/icon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/icon/icon.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/icon/icon.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/loading/loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/loading/loading.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/loading/loading.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/loading/loading.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/msg/msg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/msg/msg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/msg/msg.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/msg/msg.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/navigation-bar/navigation-bar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/navigation-bar/navigation-bar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/navigation-bar/navigation-bar.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/navigation-bar/navigation-bar.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/searchbar/searchbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/searchbar/searchbar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/searchbar/searchbar.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/searchbar/searchbar.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/slideview/slideview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/slideview/slideview.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/slideview/slideview.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/slideview/slideview.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/slideview/slideview.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/static/icon/s-arrow-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/static/icon/s-arrow-back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/tabbar/tabbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/tabbar/tabbar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/tabbar/tabbar.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/tabbar/tabbar.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/toptips/toptips.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/toptips/toptips.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/toptips/toptips.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/toptips/toptips.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/uploader/uploader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/uploader/uploader.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/uploader/uploader.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/uploader/uploader.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weui-miniprogram/weui-wxss/dist/style/weui.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/works/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/works/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/works/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/works/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/works/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/works/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chrome/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chrome/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chrome/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chrome/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/classify/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classify/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/classify/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classify/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/classify/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classify/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my/deposit.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my/deposit.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/search/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/search/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/specials/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/specials/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/specials/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/specials/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/specials/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/specials/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/specials/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/specials/show.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/specials/show.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/specials/show.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/specials/show.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/specials/show.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/works/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/works/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/works/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/works/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/works/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/works/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/works/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/works/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/works/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/works/show.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/works/show.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/works/show.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/works/show.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/works/show.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/wxapp-http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/action-sheet/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/action-sheet/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/action-sheet/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/action-sheet/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/action-sheet/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/area/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/area/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/area/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/area/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/area/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/button/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/button/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/button/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/button/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/button/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/calendar.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/components/header/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/components/header/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/components/header/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/components/header/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/components/header/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/components/month/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/components/month/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/components/month/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/components/month/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/components/month/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/components/month/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/calendar/utils.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/card/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/card/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/card/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/card/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/card/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/cell-group/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/cell-group/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/cell-group/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/cell-group/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/cell-group/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/cell/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/cell/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/cell/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/cell/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/cell/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/checkbox-group/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/checkbox-group/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/checkbox-group/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/checkbox-group/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/checkbox-group/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/checkbox/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/checkbox/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/checkbox/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/checkbox/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/checkbox/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/checkbox/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/circle/canvas.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/circle/canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/circle/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/circle/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/circle/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/circle/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/circle/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/col/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/col/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/col/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/col/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/col/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/collapse-item/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/collapse-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/collapse-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/collapse-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/collapse-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/collapse/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/collapse/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/collapse/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/collapse/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/collapse/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/color.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/color.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/component.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/style/clearfix.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/style/ellipsis.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/style/hairline.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/style/mixins/clearfix.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/style/mixins/ellipsis.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/style/mixins/hairline.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/style/theme.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/style/var.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/version.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/common/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/count-down/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/count-down/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/count-down/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/count-down/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/count-down/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/count-down/utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/count-down/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/datetime-picker/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/datetime-picker/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/datetime-picker/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/datetime-picker/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/datetime-picker/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/definitions/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/definitions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/definitions/weapp.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/definitions/weapp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dialog/dialog.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dialog/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dialog/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dialog/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dialog/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dialog/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dialog/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/divider/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/divider/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/divider/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/divider/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/divider/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dropdown-item/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dropdown-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dropdown-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dropdown-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dropdown-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dropdown-menu/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dropdown-menu/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dropdown-menu/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dropdown-menu/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dropdown-menu/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/dropdown-menu/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/empty/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/empty/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/empty/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/empty/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/empty/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/field/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/field/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/field/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/field/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/field/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/field/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/field/props.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/field/props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action-button/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action-button/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action-button/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action-button/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action-button/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action-icon/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action-icon/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action-icon/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action-icon/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action-icon/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/goods-action/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/grid-item/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/grid-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/grid-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/grid-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/grid-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/grid/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/grid/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/grid/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/grid/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/grid/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/icon/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/icon/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/icon/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/icon/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/icon/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/image/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/image/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/image/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/image/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/image/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/index-anchor/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/index-anchor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/index-anchor/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/index-anchor/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/index-anchor/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/index-bar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/index-bar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/index-bar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/index-bar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/index-bar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/info/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/info/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/info/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/info/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/info/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/loading/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/loading/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/loading/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/loading/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/loading/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/basic.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/button.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/link.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/open-type.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/open-type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/page-scroll.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/page-scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/touch.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/transition.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/mixins/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/nav-bar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/nav-bar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/nav-bar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/nav-bar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/nav-bar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/notice-bar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/notice-bar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/notice-bar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/notice-bar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/notice-bar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/notify/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/notify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/notify/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/notify/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/notify/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/notify/notify.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/notify/notify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/overlay/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/overlay/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/overlay/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/overlay/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/overlay/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/panel/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/panel/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/panel/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/panel/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/panel/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker-column/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker-column/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker-column/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker-column/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker-column/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker-column/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker/shared.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker/shared.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/picker/toolbar.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/popup/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/popup/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/popup/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/popup/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/popup/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/progress/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/progress/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/progress/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/progress/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/progress/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/progress/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/radio-group/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/radio-group/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/radio-group/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/radio-group/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/radio-group/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/radio/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/radio/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/radio/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/radio/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/radio/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/rate/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/rate/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/rate/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/rate/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/rate/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/row/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/row/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/row/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/row/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/row/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/search/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/search/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/search/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/search/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/search/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/share-sheet/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/share-sheet/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/share-sheet/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/share-sheet/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/share-sheet/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/share-sheet/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/share-sheet/options.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/share-sheet/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/share-sheet/options.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/share-sheet/options.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/share-sheet/options.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/share-sheet/options.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sidebar-item/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sidebar-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sidebar-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sidebar-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sidebar-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sidebar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sidebar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sidebar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sidebar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sidebar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/skeleton/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/skeleton/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/skeleton/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/skeleton/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/skeleton/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/slider/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/slider/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/slider/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/slider/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/slider/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/slider/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/stepper/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/stepper/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/stepper/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/stepper/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/stepper/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/steps/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/steps/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/steps/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/steps/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/steps/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sticky/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sticky/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sticky/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sticky/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sticky/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/sticky/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/submit-bar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/submit-bar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/submit-bar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/submit-bar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/submit-bar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/swipe-cell/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/swipe-cell/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/swipe-cell/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/swipe-cell/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/swipe-cell/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/switch/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/switch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/switch/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/switch/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/switch/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tab/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tab/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tab/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tab/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tab/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabbar-item/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabbar-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabbar-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabbar-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabbar-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabbar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabbar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabbar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabbar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabbar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabs/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabs/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabs/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabs/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tabs/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tag/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tag/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tag/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tag/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tag/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/toast/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/toast/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/toast/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/toast/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/toast/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/toast/toast.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/toast/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/transition/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/transition/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/transition/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/transition/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/transition/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tree-select/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tree-select/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tree-select/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tree-select/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tree-select/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/tree-select/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/uploader/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/uploader/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/uploader/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/uploader/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/uploader/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/uploader/shared.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/uploader/shared.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/uploader/utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/uploader/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/wxs/add-unit.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/wxs/array.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/wxs/bem.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/wxs/memoize.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/wxs/object.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vant/wxs/utils.wxs" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +560,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hPOpTOitl52JNnFSDvDRIA2BkU" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -19,6 +570,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -46,10 +598,17 @@
       <workItem from="1599909446462" duration="2181000" />
       <workItem from="1600050019582" duration="537000" />
       <workItem from="1600099238880" duration="26000" />
+      <workItem from="1600520926395" duration="5424000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="306" y="70" width="994" height="740" key="find.popup" timestamp="1600580484002">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="306" y="70" width="994" height="740" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1600580484002" />
   </component>
 </project>

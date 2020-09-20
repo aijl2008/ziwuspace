@@ -36,10 +36,7 @@ App({
   globalData: {
     userInfo: null
   },
-  openWebView: function (event) {
-    let exhibit = event.currentTarget.dataset.exhibit;
-    wx.navigateTo({
-      url: '/pages/chrome/index?url=' + encodeURIComponent(url) 
-    })
-  }
+
+
+
 })
