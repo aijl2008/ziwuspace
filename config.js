@@ -29,7 +29,7 @@ let wap = {
     bid: {
         agreement: "https://auction-api-inhouse.ziwuspace.com/wap/order/",
         notice: "https://auction-api-inhouse.ziwuspace.com/wap/order/",
-        deposit: "http://auction-api-inhouse.ziwuspace.com/deposit/index.html"
+        deposit: "https://auction-api-inhouse.ziwuspace.com/wap/deposit/note/"
     }
 };
 

@@ -1,7 +1,9 @@
 <view class="container">
-  <view class="page-section-space">
+  <view class="section input">
     <view class="title">交纳金额</view>
     <input style="border: 1px solid" type="text" confirm-type="search" bindconfirm="onConfirm" value="{{value}}" />
+  </view>
+  <view class="section">
     <view class="agreement">
       我同意
       <text bindtap="openWebView" data-url="{{config.wap.bid.protocol}}"
@@ -11,9 +13,9 @@
         class="red">《竞拍须知》</text>
     </view>
   </view>
-  <view class="page-section-space">
-    <view class="submit">
-      <view class="btn">立即交纳</view>
+  <view class="nav-footer">
+    <view class="default">
+      <view class="button">立即交纳</view>
     </view>
   </view>
 </view>

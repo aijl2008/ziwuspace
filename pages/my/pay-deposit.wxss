@@ -1,3 +1,8 @@
+.input {
+  display: flex;
+  flex-direction: row;
+}
+
 .title {
   line-height: 1.5rem;
   color: #969696;

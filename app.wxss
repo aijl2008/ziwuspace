@@ -89,6 +89,19 @@ image {
   font-size: 9px;
 }
 
+.nav-footer .default {
+  vertical-align: middle;
+}
+
+.nav-footer .default .button {
+  font-size: 14px;
+  text-align: center;
+
+  font-weight: 400;
+  padding: 8rpx;
+  height: 100%;
+  background-color: #efefef;
+}
 
 .section {
   width: 100%;

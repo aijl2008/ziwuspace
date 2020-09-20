@@ -21,8 +21,8 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "useMultiFrameRuntime": true,
-    "useApiHook": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -36,7 +36,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.12.2",
-  "appid": "wxc5d0777ae238c7b3",
+  "appid": "wx5089de522ad2fbff",
   "projectname": "现代传播工具",
   "debugOptions": {
     "hidedInDevtools": []

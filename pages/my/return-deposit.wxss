@@ -5,17 +5,7 @@
   line-height: 1;
 }
 
-.default {
-  color: #fff;
-  font-size: .4rem;
-  background-color: #18BD6F;
-  height: .6rem;
-  border-radius: .3rem;
-  display: inline-block;
-  padding: 0 .25rem;
-  margin-left: .5rem;
-  line-height: .6rem;
-}
+
 
 .no {
   color: #323232;
@@ -30,8 +20,6 @@
   width: 3.5rem;
   height: 1rem;
   line-height: .9rem;
-  position: absolute;
-  top: 50%;
   margin-top: -.5rem;
   right: 0;
   text-align: center;

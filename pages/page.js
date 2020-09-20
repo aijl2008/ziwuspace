@@ -186,11 +186,23 @@ export default function (options = {}) {
     },
 
     navigateToPayDeposit: function (event) {
-      let item = event.currentTarget.dataset.item;
       wx.navigateTo({
         url: '/pages/my/pay-deposit',
         success: function (res) {
-          console.log(res);
+        },
+        fail: function (res) {
+          wx.showToast({
+            title: res.errMsg,
+            image: "/images/fail.png"
+          })
+        }
+      })
+    },
+
+    navigateToReturnDeposit: function (event) {
+      wx.navigateTo({
+        url: '/pages/my/return-deposit',
+        success: function (res) {
         },
         fail: function (res) {
           wx.showToast({

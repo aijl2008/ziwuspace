@@ -1,3 +1,13 @@
+.justify{
+  justify-content: space-between;
+  display: flex;
+}
+
+.balance-box {
+  display: flex;
+  flex-flow: row;
+}
+
 .blance {
   font-size: .55rem;
   color: #969696;
@@ -37,12 +47,12 @@
   margin: 0 1.5rem;
 }
 
-.btn .black {
+.black {
   border-color: #46474b;
   color: #27282d;
 }
 
-.btn .red {
+.red {
   background-color: #18BD6F;
   color: #fff;
   border-color: #18BD6F;
@@ -56,20 +66,23 @@
   padding-bottom: .25rem;
 }
 
-.bg-w {
-  background: snow;
+.active {
+  background:#efefef;
 }
 
-.bg-g {
-  background: #E6F3F9;
+.tr{
+  display: flex;
+  flex-direction: row;
+}
+
+.th, .td {
+  width: 25%;
+  justify-content: center;
+  color: #ccc;
+  display: flex;
+  align-items: center;
 }
 
 .th {
-  width: 40%;
-  justify-content: center;
-  background: #3366FF;
-  color: #fff;
-  display: flex;
-  height: 3rem;
-  align-items: center;
+  font-weight: 400;
 }
